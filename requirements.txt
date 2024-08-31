@@ -2,7 +2,7 @@ Requests==2.30.0
 streamlit==1.24.1
 llama-index>=0.8.5
 llama-cpp-python==0.1.9
-nltk==3.8.1
+nltk==3.9
 sentence_transformers
 InstructorEmbedding==1.0.0
 huggingface-hub==0.16.4

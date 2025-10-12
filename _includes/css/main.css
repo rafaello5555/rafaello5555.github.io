@@ -88,44 +88,43 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    display: flex;           /* enable flex layout */
+    flex-direction: column;  /* stack items vertically (default) */
+    align-items: center;     /* center image and text horizontally */
+    justify-content: center; /* center content vertically if needed */
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+    text-align: center;      /* center text */
 }
 
+/* Header image */
 header img {
-    display: block;
-    margin: 0 auto 20px;   /* keep centering and bottom space */
-    width: 100%;           /* scale to container width */
-    max-width: 300px;      /* optional: prevent image from being too huge */
-    height: auto;          /* maintain aspect ratio */
-    max-height: 80vh;      /* optional: fit within screen height */
+    width: 100%;             /* scale to container */
+    max-width: 600px;        /* prevent huge images */
+    height: auto;            /* keep aspect ratio */
+    margin-bottom: 20px;     /* space below image */
 }
 
+/* Header text */
 header .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 2em !important;
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+    font-size: 1.25em !important;
 }
 
+/* Larger screens */
 @media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
-
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3.5em !important;
     }
-
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.5em !important;
+    }
+    header .container {
+        padding-top: 100px !important;
+        padding-bottom: 50px !important;
     }
 }
 

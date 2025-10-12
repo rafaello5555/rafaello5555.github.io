@@ -100,7 +100,7 @@ header .container {
 /* Header image */
 header img {
     width: 100%;             /* scale to container */
-    max-width: 600px;        /* prevent huge images */
+    max-width: 70px;        /* prevent huge images */
     height: auto;            /* keep aspect ratio */
     margin-bottom: 20px;     /* space below image */
 }

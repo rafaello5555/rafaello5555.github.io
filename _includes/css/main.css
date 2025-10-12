@@ -80,47 +80,40 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
-header {
-    text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
-}
-
-header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
+/* Make header image responsive */
 header img {
-    display: block;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto 20px;
 }
 
+/* Reduce header padding */
+header .container {
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+}
+
+/* Adjust header text size */
 header .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 2em !important;
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+    font-size: 1.25em !important;
 }
 
+/* For larger screens, scale text moderately */
 @media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
-
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3.5em !important;
+    }
+    header .intro-text .skills {
+        font-size: 1.5em !important;
     }
 
-    header .intro-text .skills {
-        font-size: 1.75em;
+    header .container {
+        padding-top: 100px !important;
+        padding-bottom: 50px !important;
     }
 }
 

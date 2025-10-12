@@ -1,3 +1,38 @@
----
-layout: style
----
+/* Reset zoom and scaling */
+html, body {
+    zoom: 1 !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Make containers responsive */
+header .container, .container {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 15px !important;
+}
+
+/* Reduce large padding to prevent zoomed appearance */
+header .container {
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+}
+
+section {
+    padding: 50px 0 !important;
+}
+
+/* Adjust large fonts for small screens */
+p {
+    font-size: 16px !important;
+}
+
+@media(min-width:768px) {
+    p {
+        font-size: 18px !important;
+    }
+}

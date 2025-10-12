@@ -80,40 +80,52 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
-/* Make header image responsive */
-header img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto 20px;
+
+header {
+    text-align: center;
+    color: #fff;
+    background: #{{ site.color.primary }};
 }
 
-/* Reduce header padding */
 header .container {
-    padding-top: 50px !important;
-    padding-bottom: 30px !important;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
-/* Adjust header text size */
+header img {
+    display: block;
+    margin: 0 auto 20px;   /* keep centering and bottom space */
+    width: 100%;           /* scale to container width */
+    max-width: 600px;      /* optional: prevent image from being too huge */
+    height: auto;          /* maintain aspect ratio */
+    max-height: 80vh;      /* optional: fit within screen height */
+}
+
 header .intro-text .name {
-    font-size: 2em !important;
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
 }
 
 header .intro-text .skills {
-    font-size: 1.25em !important;
+    font-size: 1.25em;
+    font-weight: 300;
 }
 
-/* For larger screens, scale text moderately */
 @media(min-width:768px) {
-    header .intro-text .name {
-        font-size: 3.5em !important;
-    }
-    header .intro-text .skills {
-        font-size: 1.5em !important;
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
     }
 
-    header .container {
-        padding-top: 100px !important;
-        padding-bottom: 50px !important;
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
     }
 }
 

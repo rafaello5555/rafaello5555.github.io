@@ -3,6 +3,22 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
+
+
+
+.star-light {
+  border: none;
+  height: 2px;
+  background-color: #333;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
   font-weight: var(--fa-style, 900); }

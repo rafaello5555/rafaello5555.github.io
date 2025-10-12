@@ -88,43 +88,40 @@ header {
 }
 
 header .container {
-    display: flex;           /* enable flex layout */
-    flex-direction: column;  /* stack items vertically (default) */
-    align-items: center;     /* center image and text horizontally */
-    justify-content: center; /* center content vertically if needed */
-    padding-top: 50px !important;
-    padding-bottom: 30px !important;
-    text-align: center;      /* center text */
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-/* Header image */
 header img {
-    width: 100%;             /* scale to container */
-    max-width: 70px;        /* prevent huge images */
-    height: auto;            /* keep aspect ratio */
-    margin-bottom: 20px;     /* space below image */
+    display: block;
+    margin: 0 auto 50px;
 }
 
-/* Header text */
 header .intro-text .name {
-    font-size: 2em !important;
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
 }
 
 header .intro-text .skills {
-    font-size: 1.25em !important;
+    font-size: 1.25em;
+    font-weight: 300;
 }
 
-/* Larger screens */
 @media(min-width:768px) {
-    header .intro-text .name {
-        font-size: 3.5em !important;
-    }
-    header .intro-text .skills {
-        font-size: 1.5em !important;
-    }
     header .container {
-        padding-top: 100px !important;
-        padding-bottom: 50px !important;
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
     }
 }
 

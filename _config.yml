@@ -31,7 +31,10 @@ color:
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 0E4B66 #FD6E8A
   secondary-dark: 233140 #A2122F
-
+# Footer settings
+footer:
+  location: Location
+  social: Follow me
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -41,11 +44,7 @@ social:
   - title: github
     url: https://github.com/rafaello5555
 
-# Footer settings
-footer:
 
-  location: Location
-  social: Follow me
   
 
 # Postal address (add as many lines as necessary)

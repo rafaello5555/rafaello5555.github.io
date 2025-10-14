@@ -1,5 +1,5 @@
 ## Publications
-<a id="publication"></a>
+<a id="publications"></a>
 
 Here are some of my research contributions:
 

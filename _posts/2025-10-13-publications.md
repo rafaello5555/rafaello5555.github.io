@@ -11,3 +11,4 @@ permalink: /publications/
     <li><strong>“Another Paper Title”</strong> – <em>Conference Name</em>, Year. <a href="link-to-paper-or-doi">Link</a></li>
   </ul>
 </section>
+

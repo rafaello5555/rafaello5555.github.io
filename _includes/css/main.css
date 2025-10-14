@@ -4,6 +4,23 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
+
+.publications-page {
+  background-color: #f0f8ff; /* light blue */
+  padding: 50px;
+}
+
+.publications-page h2 {
+  color: #003366; /* dark blue title */
+}
+
+
+
+
+
+
 body {
     overflow-x: hidden;
 }

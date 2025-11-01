@@ -4,8 +4,8 @@ modal-id: 1
 date: 2023-03-01
 img: tableau_pic.png
 alt: image-alt
-project-date: March 2023
-client: Rafail Mahammadli
+project-date: August 2025
+client: Freelancer
 category: Data analytics
 description: |
   Built an interactive Tableau dashboard using 84K+ customer records to analyze loyalty trends, sales performance, and coupon response. Created map, bubble, stacked bar, scatter, and combo charts to visualize revenue by region, loyalty status, and product line. Identified that Smart Electronics and TV & Video Gaming generated the highest customer lifetime value and coupon campaigns boosted sales among Bronze members:

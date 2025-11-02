@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2023-03-02
-img: How_do_people_feel_about_a_product.png
+img: credit_card.png
 alt: image-alt
 project-date: March 2023
 client: IBM Skills Network

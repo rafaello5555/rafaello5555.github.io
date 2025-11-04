@@ -40,9 +40,9 @@
                 <strong>{{ post.dataset }}</strong>
               </li>
               {% endif %}
-              {% if post.app-link %}
-                <a href="{{ post.app-link }}" target="_blank" class="btn btn-success">Try the App</a>
-              {% endif %}
+              <li>App:
+                <strong>{{ post['app-link'] }}</strong>
+              </li>
             </ul>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>

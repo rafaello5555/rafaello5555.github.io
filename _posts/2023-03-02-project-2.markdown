@@ -8,6 +8,7 @@ project-date: March 2024
 client: Freelancer
 category: Machine Learning / Data Science
 dataset: <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkGuidedProjectsIBMGPXX0RHPEN82-2022-01-01"> View Dataset </a>
-app-link: "https://credit-card-fraud-detection-ppmww7p2pjwhobz6ywj8nv.streamlit.app/"
+app-link: <a href="https://credit-card-fraud-detection-ppmww7p2pjwhobz6ywj8nv.streamlit.app/" target="_blank">Try the App</a>
+
 description: How do people feel about a product? Use AI to get the answer - Natural language processing (NLP) is an exciting machine learning application; IBM's Watson NLP library can greatly ease the development and deployment of NLP as part of your application. Amazon's 5-star rating system lacks feedback for both users and buyers. What about using NLP for helpful information? In this project, we will develop an application to classify Amazon users' emotions using Watson NLP. After conducting this project, developers will know how to build a web scraping, emotion classification embedded application. Link - https://cognitiveclass.ai/courses/course-v1:IBMSkillsNetwork+GPXX01V6EN+v1
 ---

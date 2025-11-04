@@ -7,8 +7,8 @@ alt: image-alt
 project-date: March 2024
 client: Freelancer
 category: Machine Learning / Data Science
-dataset: <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkGuidedProjectsIBMGPXX0RHPEN82-2022-01-01"> View Dataset </a>
-app-link: <a href="https://credit-card-fraud-detection-ppmww7p2pjwhobz6ywj8nv.streamlit.app/" target="_blank" style="color:#FF5722; text-decoration: underline;">Try the App</a>
+dataset: '<a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkGuidedProjectsIBMGPXX0RHPEN82-2022-01-01">View Dataset</a>'
+app-link: '<a href="https://credit-card-fraud-detection-ppmww7p2pjwhobz6ywj8nv.streamlit.app/" target="_blank" style="color:#FF5722; text-decoration: underline;">Try the App</a>'
 description: |
-This project
+  This project
 ---

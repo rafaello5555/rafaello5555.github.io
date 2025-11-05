@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2023-03-03
-img: Mastering_NLP_and_Clustering.png
+img: invoice_bot.png
 alt: image-alt
 project-date: March 2023
 client: IBM Skills Network

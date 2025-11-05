@@ -9,5 +9,5 @@ client: Freelancer
 category: Data analytics
 app-link: '<a href="https://us-east-1.online.tableau.com/#/site/rmahammadli-96b0f769ba/workbooks/3538096?%3Aorigin=card_share_link" target="_blank" style="color:#FF5722; text-decoration: underline;">View Project-1</a>'
 description: |
-  Built an interactive Tableau dashboard using 84K+ customer records to analyze loyalty trends, sales performance, and coupon response. Created map, bubble, stacked bar, scatter, and combo charts to visualize revenue by region, loyalty status, and product line. Identified that Smart Electronics and TV & Video Gaming generated the highest customer lifetime value and coupon campaigns boosted sales among Bronze members:
+  Built an interactive Tableau dashboard using 84K+ customer records to analyze loyalty trends, sales performance, and coupon response. Created map, bubble, stacked bar, scatter, and combo charts to visualize revenue by region, loyalty status, and product line. Identified that Smart Electronics and TV & Video Gaming generated the highest customer lifetime value and coupon campaigns boosted sales among Bronze members
 ---

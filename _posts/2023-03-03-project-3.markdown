@@ -4,8 +4,9 @@ modal-id: 3
 date: 2023-03-03
 img: invoice_bot.png
 alt: image-alt
-project-date: March 2023
-client: IBM Skills Network
-category: Information Technology
-description: Mastering NLP and Clustering, Find Best Courses Like a Pro - In this project, you'll dive into the exciting realm of Natural Language Processing (NLP) and Machine Learning (ML) to identify similar courses. From preprocessing text to vectorizing it with cutting-edge NLP models like BERT, you'll master the art of preparing text for analysis. Get hands-on experience with clustering algorithms and find out the optimal number of clusters using various methods. Discover the beauty of data visualization as you plot similar courses in 2D and 3D. Finally, search and recommend clusters tailored to your specific interests - all in one project! Link - https://cognitiveclass.ai/courses/course-v1:IBMSkillsNetwork+GPXX0QZ9EN+v1
+project-date: December 2024
+client: Freelancer
+category: Advanced AI/GenAI | Chatbot development | Invoice Dispute Bot Automation
+app-link: 
+description: This project orchestrate multi-agent AI workflows such as (invoice anomalies, billing discrepancies, professional dispute resolution) using CrewAI framework  and  integrates LLaMA3, GP-4, Claude models for advance decision-making and streamline finance operations with less human intervention
 ---

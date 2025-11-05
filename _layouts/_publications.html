@@ -1,27 +1,12 @@
----
-layout: default
-title: Publications
----
-
-<div class="container" style="padding-top:120px; padding-bottom:80px;">
-  <h2 class="text-center mb-5">Publications</h2>
-
-  <div class="row">
-    {% for pub in site.data.publications %}
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card shadow-sm border-0 rounded-3 h-100 fade-in">
-        <div class="card-body">
-          <h5 class="card-title">{{ pub.title }}</h5>
-          <p class="card-text text-muted">
-            Published at <strong>{{ pub.university }}</strong> — {{ pub.year }}<br>
-            {{ pub.description }}
-          </p>
-          <a href="{{ pub.link }}" class="btn btn-primary btn-sm" target="_blank">
-            View Publication
-          </a>
-        </div>
-      </div>
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+    <div class="container" style="padding-top:120px; padding-bottom:80px;">
+      {{ content }}
     </div>
-    {% endfor %}
-  </div>
-</div>
+    {% include footer.html %}
+    {% include js.html %}
+  </body>
+</html>

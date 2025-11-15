@@ -2,7 +2,7 @@
 layout: default
 modal-id: 5
 date: 2023-03-05
-img: Build_your_own_Unbeatable_TicTacToe_AI.png
+img: science_monitoring.png
 alt: image-alt
 project-date: April 2014
 project-date: March 2023

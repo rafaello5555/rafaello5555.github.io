@@ -14,7 +14,7 @@ description: >
 
   To standardize the environmental impact across different chemicals, the project integrates the Climatiq API to convert reported chemical quantities into their CO₂-equivalent (CO₂e) values. This enables accurate comparison of chemical-level emissions and highlights the most significant contributors to overall GHG output.
 
-  In addition, the project includes a Streamlit web application that allows users to upload their own datasets, automatically calculate CO₂e emissions through the Climatiq API, and visualize emission profiles across chemicals or facilities.
+  In addition, the project includes a Streamlit web application that allows users to upload their own datasets, automatically calculate CO₂e emissions through the Climatiq API, and visualize emission profiles across chemicals or facilities
 ---
 
 

@@ -9,6 +9,6 @@ project-date: March 2023
 client: U.S. Environmental Protection Agency 
 dataset: '<a href="https://www.epa.gov/ghgreporting/data-sets" target="_blank" style="color:#FF5722; text-decoration: underline;"> View Dataset</a>'
 category: Greenhouse Gas Emissions Analysis
-description: 
+description: |
 This project analyzes greenhouse gas (GHG) emissions from industrial chemical processes in the United States using data from the EPA Greenhouse Gas Reporting Program (GHGRP). Specifically, it focuses on emissions from individual chemicals used or produced in production and treatment (P&T) processes at large facilities. The project identifies which chemicals contribute most to GHG emissions, such as hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and other fluorinated gases. Using Climatiq API integration, the dataset’s chemical emissions are converted to their CO₂ equivalent (CO₂e) to quantify and compare environmental impact.
 --

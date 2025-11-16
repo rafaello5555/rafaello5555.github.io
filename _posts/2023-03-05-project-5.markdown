@@ -10,7 +10,7 @@ category: Greenhouse Gas Emissions Analysis
 dataset: '<a href="https://www.epa.gov/ghgreporting/data-sets" target="_blank" style="color:#FF5722; text-decoration: underline;">View Dataset</a>'
 app-link: '<a href="https://fluorinated-ghg-estimator-m7byspkjyalyh6f58shwin.streamlit.app" target="_blank" style="color:#FF5722; text-decoration: underline;">Try the App</a>'
 description: >
-  This project analyzes greenhouse gas (GHG) emissions from industrial chemical processes in the United States using data from the EPA’s Greenhouse Gas Reporting Program (GHGRP). It focuses specifically on emissions from chemicals used or produced in Production & Treatment (P&T) operations at large facilities. The analysis identifies high impact greenhouse gases such as hydrofluorocarbons (HFCs), perfluorocarbons (PFCs) and other fluorinated gases—and evaluates their contribution to total emissions.
+  This project analyzes greenhouse gas (GHG) emissions from industrial chemical processes in the United States using data from the EPA’s Greenhouse Gas Reporting Program (GHGRP). It focuses specifically on emissions from chemicals used or produced in Production & Treatment (P&T) operations at large facilities. The analysis identifies high impact greenhouse gases such as hydrofluorocarbons (HFCs), perfluorocarbons (PFCs) and other fluorinated gases and evaluates their contribution to total emissions.
 
   To standardize the environmental impact across different chemicals, the project integrates the Climatiq API to convert reported chemical quantities into their CO₂-equivalent (CO₂e) values. This enables accurate comparison of chemical-level emissions and highlights the most significant contributors to overall GHG output.
 

@@ -7,25 +7,33 @@
 
 
 
+/* Hero Section Flex Layout */
 #hero {
-    text-align: center;
     padding: 50px 20px;
 }
 
-.hero-img {
-    width: 200px;          /* adjust size */
-    border-radius: 50%;    /* circular */
-    display: block;
-    margin: 0 auto 20px auto;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* optional */
+.hero-flex {
+    display: flex;
+    align-items: center;      /* vertically center image and text */
+    justify-content: center;  /* center the row horizontally */
+    gap: 30px;                /* space between image and text */
+    flex-wrap: wrap;          /* wrap on smaller screens */
+    text-align: left;
 }
 
-#hero h1 {
-    font-size: 2.5rem;
+.hero-img {
+    width: 150px;             /* adjust size */
+    height: 150px;
+    border-radius: 50%;       /* circular */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.hero-text h1 {
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
-#hero p {
+.hero-text p {
     font-size: 1.2rem;
     color: #555;
 }
